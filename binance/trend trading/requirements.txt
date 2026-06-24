@@ -1,0 +1,5 @@
+cryptography
+jsonpath
+requests
+telebot
+websockets

@@ -1,0 +1,1 @@
+2024-06-23 14:21:04,865 - ERROR - login_ws - 登录失败，错误信息{'id': 1719123652425, 'status': 400, 'error': {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'}, 'rateLimits': [{'rateLimitType': 'REQUEST_WEIGHT', 'interval': 'MINUTE', 'intervalNum': 1, 'limit': 6000, 'count': 4}]}

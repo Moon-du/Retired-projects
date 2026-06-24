@@ -1,0 +1,18 @@
+2024-05-29 10:45:57,514 - set_scheduled_trading - 设置FDUSDUSDT定时买入任务成功：上线时间2024-05-19 16:02:00
+2024-05-29 10:47:12,606 - login_ws - 登录失败,错误信息：[Errno 60] Operation timed out
+2024-05-29 10:47:17,161 - submit_spot_orders_ws - 请求参数:{'id': 1716950837161, 'method': 'order.place', 'params': {'symbol': 'FDUSDUSDT', 'type': 'MARKET', 'side': 'BUY', 'timestamp': 1716950837161, 'quoteOrderQty': 1}}
+2024-05-29 10:47:17,161 - submit_spot_orders_ws - 交易失败,错误信息：'NoneType' object has no attribute 'send'
+2024-06-11 02:58:11,891 - INFO - set_scheduled_trading - 设置FDUSDUSDT定时买入任务成功：上线时间2024-05-19 16:02:00
+2024-06-11 02:58:12,078 - INFO - login_ws - 登录成功
+2024-06-11 02:58:12,079 - INFO - submit_spot_orders_ws - 请求参数:{'id': 1718074692079, 'method': 'order.place', 'params': {'symbol': 'FDUSDUSDT', 'type': 'MARKET', 'side': 'BUY', 'timestamp': 1718074692079, 'quoteOrderQty': 1}}
+2024-06-11 02:58:12,090 - ERROR - submit_spot_orders_ws - 交易失败,错误信息{'id': 1718074692079, 'status': 400, 'error': {'code': -1013, 'msg': 'Filter failure: NOTIONAL'}, 'rateLimits': [{'rateLimitType': 'REQUEST_WEIGHT', 'interval': 'MINUTE', 'intervalNum': 1, 'limit': 6000, 'count': 5}]}
+2024-06-11 02:58:13,449 - INFO - submit_spot_orders_ws - 请求参数:{'id': 1718074693449, 'method': 'order.place', 'params': {'symbol': 'FDUSDUSDT', 'type': 'MARKET', 'side': 'SELL', 'timestamp': 1718074693449, 'quantity': 0}}
+2024-06-11 02:58:13,460 - ERROR - submit_spot_orders_ws - 交易失败,错误信息{'id': 1718074693449, 'status': 400, 'error': {'code': -1013, 'msg': 'Invalid quantity.'}, 'rateLimits': [{'rateLimitType': 'REQUEST_WEIGHT', 'interval': 'MINUTE', 'intervalNum': 1, 'limit': 6000, 'count': 6}]}
+2024-06-11 02:58:14,031 - INFO - trading_new_coins - 执行FDUSDUSDT交易任务成功，本次收益:0
+2024-06-16 13:43:43,557 - INFO - set_scheduled_trading - 设置IOUSDT定时买入任务成功：上线时间2024-06-11 20:00:00
+2024-06-16 13:43:43,785 - INFO - login_ws - 登录成功
+2024-06-16 13:43:43,785 - INFO - submit_spot_orders_ws - 通过ws接口提交现货订单请求参数:{'id': 1718516623785, 'method': 'order.place', 'params': {'symbol': 'IOUSDT', 'type': 'MARKET', 'side': 'BUY', 'timestamp': 1718516623785, 'quoteOrderQty': 1}}
+2024-06-16 13:43:43,795 - ERROR - submit_spot_orders_ws - 交易失败,错误信息{'id': 1718516623785, 'status': 400, 'error': {'code': -1013, 'msg': 'Filter failure: NOTIONAL'}, 'rateLimits': [{'rateLimitType': 'REQUEST_WEIGHT', 'interval': 'MINUTE', 'intervalNum': 1, 'limit': 6000, 'count': 5}]}
+2024-06-16 13:43:44,896 - INFO - submit_spot_orders_ws - 通过ws接口提交现货订单请求参数:{'id': 1718516624896, 'method': 'order.place', 'params': {'symbol': 'IOUSDT', 'type': 'MARKET', 'side': 'SELL', 'timestamp': 1718516624896, 'quantity': 0}}
+2024-06-16 13:43:44,906 - ERROR - submit_spot_orders_ws - 交易失败,错误信息{'id': 1718516624896, 'status': 400, 'error': {'code': -1013, 'msg': 'Invalid quantity.'}, 'rateLimits': [{'rateLimitType': 'REQUEST_WEIGHT', 'interval': 'MINUTE', 'intervalNum': 1, 'limit': 6000, 'count': 6}]}
+2024-06-16 13:43:45,432 - INFO - trading_new_coins - 执行IOUSDT交易任务成功，本次收益:0
